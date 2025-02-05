@@ -103,6 +103,6 @@ def import_xml(filepath):
 
 
 # Укажите путь к вашему XML файлу
-xml_filepath  = "D:/q/sf/models/armor_blood_master.xml"
+xml_filepath  = "path/to/file.xml"
 
 import_xml(xml_filepath)
