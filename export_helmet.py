@@ -95,5 +95,5 @@ def export_xml(filepath):
         tree.write(f, encoding='Windows-1251', xml_declaration=True, method="xml")
 
 # Укажите путь для сохранения XML файла
-xml_filepath = "D:/sf/123.xml"
+xml_filepath  = "path/to/file.xml"
 export_xml(xml_filepath)
