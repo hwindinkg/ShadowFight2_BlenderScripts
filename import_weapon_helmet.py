@@ -61,6 +61,6 @@ def import_xml(filepath):
         create_triangle(*triangle)
 
 # Укажите путь к вашему XML файлу
-xml_filepath  = "D:/sf/models/head_hermit.xml"
+xml_filepath  = "path/to/file.xml"
 
 import_xml(xml_filepath)
