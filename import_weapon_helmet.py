@@ -60,7 +60,6 @@ def import_xml(filepath):
     for triangle in triangles:
         create_triangle(*triangle)
 
-# Укажите путь к вашему XML файлу
 xml_filepath  = "path/to/file.xml"
 
 import_xml(xml_filepath)
