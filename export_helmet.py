@@ -57,7 +57,7 @@ def export_xml(filepath):
         node_id += 1
         return node_name
 
-    # Экспорт только выделенных объектов
+    
     selected_objects = [obj for obj in bpy.context.selected_objects if obj.type == 'MESH']
     
     for obj in selected_objects:
@@ -73,7 +73,7 @@ def export_xml(filepath):
                 'Node3': node_ids[2]
             })
 
-    # Красивое форматирование XML
+
     def indent(elem, level=0):
         i = "\n" + level * "  "
         if len(elem):
@@ -94,6 +94,5 @@ def export_xml(filepath):
     with open(filepath, "wb") as f:
         tree.write(f, encoding='Windows-1251', xml_declaration=True, method="xml")
 
-# Укажите путь для сохранения XML файла
 xml_filepath  = "path/to/file.xml"
 export_xml(xml_filepath)
