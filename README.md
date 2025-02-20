@@ -23,5 +23,3 @@ How the model looks like in the game:
 
 ![HD-Player_BZok5Dqd217](https://github.com/user-attachments/assets/c0cb654d-d557-41b5-a56d-7179f75fc98f)
 
-
-Translated with DeepL.com (free version)
